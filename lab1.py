@@ -1,0 +1,9 @@
+a = int(input("enter a number"))
+b = int(input("enter second number"))
+c = int(input("enter third number"))
+
+sum = a + b + c
+print(f"the sum of the three number is{sum} .")
+
+
+
