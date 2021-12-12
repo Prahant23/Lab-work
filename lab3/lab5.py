@@ -12,5 +12,5 @@ percentage =(attend_class/held_class)*100
 print("your total attendence is {}".format(percentage))
 if(percentage >= 75):
      print("You can sit in exam")
-else
+else:
     print("you cannot sit in exam")
