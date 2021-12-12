@@ -3,3 +3,4 @@
 # Given the number of students in each class, print the smallest possible number of desks
 #
 # that can be purchased.
+G1 = int(input()

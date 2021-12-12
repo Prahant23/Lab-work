@@ -1,11 +1,16 @@
-#4. Given three integers, print the smallest one. (Three integers should be user input)
+# A student will not be allowed to sit in exam if his/her attendence is less than 75%.
+# Take following input from user
+# Number of classes held
+# Number of classes attended.
+# And print
+# percentage of class attended
+# Is student is allowed to sit in exam or not.
 
-q = int(input("enter first integer: "))
-w = int(input("enter second integer: "))
-e = int(input("enter third integer: "))
-if q<w<e:
-    print(" first integer is smaller")
-elif w<q<e:
-    print("second integer is smaller")
-else:
-    print("third integer is smaller")
+held_class = int(input("enter the number  of class held"))
+attend_class = int(input("enter the number of class attended"))
+percentage =(attend_class/held_class)*100
+print("your total attendence is {}".format(percentage))
+if(percentage >= 75):
+     print("You can sit in exam")
+else
+    print("you cannot sit in exam")
